@@ -1,0 +1,38 @@
+.portfolio_title a{
+    text-decoration: none;
+    color:black;
+
+
+
+}
+.portfolio_title{
+    margin:auto;
+    margin-bottom:30px;
+    margin-top:30px;
+    text-align: center;
+    background-color: aqua;
+    padding:30px;
+}
+
+
+li{
+    background-color: lavender;
+    padding:20px;
+ 
+    margin:auto;
+    margin-bottom:20px;
+    font-size: 25px;
+    max-width: 50%;
+
+}
+
+li a{
+    text-decoration: none;
+    color:black;
+}
+li a:hover{
+    color:crimson;
+}
+li a:visited{
+    color:aqua;
+}
