@@ -1,0 +1,21 @@
+td{
+    width:100px;
+    height:100px;
+    border: 1px solid black;
+}
+table :nth-child(odd) :nth-child(odd){
+    border:none;
+    border-bottom:1px solid black;
+}
+table :nth-child(3) :nth-child(1n+1){
+    border-bottom:none;
+}
+table tr :nth-child(even){
+    border-top:none;
+}
+tr :nth-child(3){
+    border-bottom: none;
+}
+table :last-child{
+    border-bottom:none;
+}
