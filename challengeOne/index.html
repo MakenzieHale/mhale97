@@ -11,18 +11,20 @@
     <main>
         <div class="todo-list">
             <ul id="list">
-                <li class="checked">Take out the dog</li>
+                <li>Take out the dog</li>
                 <li>Go to the gym</li>
                 <li> Do WDD 330 readings</li>
             </ul>
-            <div id="add" class="add-new">
+          <form class="todo-form">
                 <input type="text" id="myInput" placeholder="Add Task...">
-                <span onlcick="newElement()" class="submit">+</span>
-            </div>
+                <span id="button"  class="submit">+</span>
+          </form>
         </div>
     </main>
     <footer>
         <span class="taskLeft"></span> <span class="nav"><a href="index.html">All</a></span> <span class="nav"><a href="active.html">Active</a></span> <span class="nav"><a href="completed.html">Completed</a></span>
     </footer>
+    <script type="module" src="js/main.js"></script>
+  
 </body>
 </html>
