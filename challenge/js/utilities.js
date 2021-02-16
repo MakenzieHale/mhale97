@@ -72,6 +72,7 @@ function deleteTodo(key){
 
     todoItems = todoItems.filter(item => item.id !== Number(key));
     showTodos(todo);
+    
 }
 
 
