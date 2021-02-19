@@ -228,3 +228,7 @@ function curry(func, ...oldArgs) {
 const divider = (x,y) => x/y;
 
 const recipricol = curry(divider,1);
+
+
+// chapter 13 Putting it all together
+
