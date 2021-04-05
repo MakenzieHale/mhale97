@@ -1,4 +1,4 @@
-const links= new Array("week01","week02","week03","week04","week05","week06","week07","week08","week09","week10","week11","week12","week13","week14");
+const links= new Array("week01","week02","week03","week04","week05","week06","week07","week08","week09","week10","week14");
 
 const ol = document.querySelector('ol');
 const arrayLength = links.length;
